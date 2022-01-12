@@ -9,7 +9,6 @@ public class Calculator extends JFrame implements ActionListener {
 
     double number1, number2, answer;
     char operator;
-    JPanel panel = new JPanel();
     JTextField textField = new JTextField();
     JLabel label = new JLabel();
 
@@ -45,6 +44,7 @@ public class Calculator extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(500, 480);
         this.setResizable(false);
+//        this.pack();
         this.setLayout(null);
         this.setVisible(true);
     }
@@ -91,17 +91,17 @@ public class Calculator extends JFrame implements ActionListener {
         button_Four.setFocusable(false);
         this.add(button_Four);
 
-        button_Five.setBounds(135, 160, 105, 40);
+        button_Five.setBounds(140, 160, 105, 40);
         button_Five.setFont(new Font("Arial", Font.BOLD, 22));
         button_Five.setFocusable(false);
         this.add(button_Five);
 
-        button_six.setBounds(245, 160, 105, 40);
+        button_six.setBounds(250, 160, 105, 40);
         button_six.setFont(new Font("Arial", Font.BOLD, 22));
         button_six.setFocusable(false);
         this.add(button_six);
 
-        button_Multiplication.setBounds(355, 160, 105, 40);
+        button_Multiplication.setBounds(360, 160, 105, 40);
         button_Multiplication.setFont(new Font("Arial", Font.BOLD, 22));
         button_Multiplication.setFocusable(false);
         this.add(button_Multiplication);
@@ -112,17 +112,17 @@ public class Calculator extends JFrame implements ActionListener {
         button_One.setFocusable(false);
         this.add(button_One);
 
-        button_Two.setBounds(135, 210, 105, 40);
+        button_Two.setBounds(140, 210, 105, 40);
         button_Two.setFont(new Font("Arial", Font.BOLD, 22));
         button_Two.setFocusable(false);
         this.add(button_Two);
 
-        button_Three.setBounds(245, 210, 105, 40);
+        button_Three.setBounds(250, 210, 105, 40);
         button_Three.setFont(new Font("Arial", Font.BOLD, 22));
         button_Three.setFocusable(false);
         this.add(button_Three);
 
-        button_Plus.setBounds(355, 210, 105, 40);
+        button_Plus.setBounds(360, 210, 105, 40);
         button_Plus.setFont(new Font("Arial", Font.BOLD, 22));
         button_Plus.setFocusable(false);
         this.add(button_Plus);
@@ -133,28 +133,28 @@ public class Calculator extends JFrame implements ActionListener {
         button_Zero.setFocusable(false);
         this.add(button_Zero);
 
-        button_Dot.setBounds(135, 260, 105, 40);
+        button_Dot.setBounds(140, 260, 105, 40);
         button_Dot.setFont(new Font("Arial", Font.BOLD, 22));
         button_Dot.setFocusable(false);
         this.add(button_Dot);
 
-        button_Equal.setBounds(245, 260, 105, 40);
+        button_Equal.setBounds(250, 260, 105, 40);
         button_Equal.setFont(new Font("Arial", Font.BOLD, 22));
         button_Equal.setFocusable(false);
         this.add(button_Equal);
 
-        button_Minus.setBounds(355, 260, 105, 40);
+        button_Minus.setBounds(360, 260, 105, 40);
         button_Minus.setFont(new Font("Arial", Font.BOLD, 22));
         button_Minus.setFocusable(false);
         this.add(button_Minus);
 
         // Fifth Row
-        button_Clear.setBounds(30, 310, 210, 40);
+        button_Clear.setBounds(30, 310, 215, 40);
         button_Clear.setFont(new Font("Arial", Font.BOLD, 22));
         button_Clear.setFocusable(false);
         this.add(button_Clear);
 
-        button_Del.setBounds(245, 310, 215, 40);
+        button_Del.setBounds(250, 310, 215, 40);
         button_Del.setFont(new Font("Arial", Font.BOLD, 22));
         button_Del.setFocusable(false);
         this.add(button_Del);
